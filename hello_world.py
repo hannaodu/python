@@ -1,2 +1,2 @@
-print("hello world ,this Hanna acurrently learning phyton")
+print("hello world ,this Hanna currently learning phyton")
 print()
