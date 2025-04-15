@@ -18,8 +18,23 @@ print(f"S3 Bucket Name: {bucket_name}")
 print("S3 Bucket Name: {}".format(bucket_name))
 
 print(f"S3 Bucket Name: {bucket_name}")
-#f-string formatting
-#string interpolation
-#string concatenation
+
+#Environmnet name
+environment_name = "dev" #development
+
+#application name
+application_name = "webapp" #web application
+
+#instance number
+instance_number = 1 #first instance
+
+#concatenate
+
+instance_name = f"{environment_name}-{application_name}-{instance_number}"
+
+
+#print result
+print(f"Instance Name: {instance_name}")
+
 
 
