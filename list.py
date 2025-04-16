@@ -4,7 +4,7 @@ instance_ids = ["i-1234", "i=2134"]
 
 
 #list of IP address for a security group 
-ip_addresses = ["10.0.0.1","10.0.0.2","10.0.0.3"]
+ip_addresses = ["10.0.0.1","10.0.0.2","10.0.0.3","10.0.0.4"]
 
 
 
@@ -35,7 +35,7 @@ print(f"EC2 instance:", instance_ids)
 
 #check if an item is in a list
 if "10.0.0.4" in ip_addresses:
-    print("10.0.0.1 is is in and allowed")
+    print("10.0.0.4 is is in and allowed")
 else:
     print("10.0.0.4 is not in the list")
 print("ip addresses:", ip_addresses)
